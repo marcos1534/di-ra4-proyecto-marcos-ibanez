@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "di-ra4-proyecto-marcos-ibanez", "di-ra4-proyecto-marcos-ibanez\di-ra4-proyecto-marcos-ibanez.csproj", "{90DCC41C-EF5E-4AD7-B829-0E1B92635B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90DCC41C-EF5E-4AD7-B829-0E1B92635B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DCC41C-EF5E-4AD7-B829-0E1B92635B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DCC41C-EF5E-4AD7-B829-0E1B92635B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DCC41C-EF5E-4AD7-B829-0E1B92635B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0122FFE-6334-4C6F-AA74-3D77C820530B}
+	EndGlobalSection
+EndGlobal

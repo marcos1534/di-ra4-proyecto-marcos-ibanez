@@ -1,0 +1,74 @@
+﻿namespace di_ra4_proyecto_marcos_ibanez.Vista
+{
+    partial class FormGraficosSalas
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(965, 676);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(824, 595);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(120, 52);
+            this.btnVolver.TabIndex = 4;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // FormGraficosSalas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(965, 676);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.reportViewer1);
+            this.Name = "FormGraficosSalas";
+            this.Text = "FormGraficosSalas";
+            this.Load += new System.EventHandler(this.FormGraficosSalas_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.Button btnVolver;
+    }
+}
